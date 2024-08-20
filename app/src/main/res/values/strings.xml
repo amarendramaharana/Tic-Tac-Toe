@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
     <string name="enter_players_name">ENTER PLAYERS NAME</string>
+    <string name="enter_player1_name">Enter Player1 name</string>
+    <string name="enter_player2_name">Enter Player2 name</string>
     <dimen name="stroke_width">1dp</dimen>
 
 </resources>

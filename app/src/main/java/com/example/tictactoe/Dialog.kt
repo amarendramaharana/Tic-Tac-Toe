@@ -20,7 +20,6 @@ val view =LayoutInflater.from(context).inflate(R.layout.dialog_layout,null,false
             .setCancelable(false)
             .create()
         dialog.show()
-      // Replace 'your_mp3_file' with your MP3 file name in raw folder
         mediaPlayer?.start()
         val btnPlayAgain=view.findViewById<MaterialButton>(R.id.btnPlayAgain)
         val winnerName=view.findViewById<TextView>(R.id.winnerName)
