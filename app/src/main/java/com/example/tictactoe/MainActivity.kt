@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra("PLAYER2", mainBinding.player2.text.toString())
                 startActivity(intent)
                 finish()
-
             }
 
         }

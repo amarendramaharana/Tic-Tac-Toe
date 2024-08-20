@@ -159,7 +159,7 @@ class GameActivity : AppCompatActivity() {
     }
 
     private fun resetGame() {
-        if (count != 0) {
+        if(buttonCount!=0){
             btn1.text = ""
             btn2.text = ""
             btn3.text = ""
@@ -170,9 +170,12 @@ class GameActivity : AppCompatActivity() {
             btn8.text = ""
             btn9.text = ""
         }
-        count = 0
-        buttonCount = 0
-        updateActiveState()
+
+            count = 0
+            buttonCount = 0
+            updateActiveState()
+
+
     }
 
     override fun onBackPressed() {
