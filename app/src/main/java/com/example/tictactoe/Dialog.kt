@@ -20,7 +20,7 @@ val view =LayoutInflater.from(context).inflate(R.layout.dialog_layout,null,false
             .setCancelable(false)
             .create()
         dialog.show()
-        mediaPlayer?.start()
+
         val btnPlayAgain=view.findViewById<MaterialButton>(R.id.btnPlayAgain)
         val winnerName=view.findViewById<TextView>(R.id.winnerName)
         val textview=view.findViewById<TextView>(R.id.textView)
@@ -31,6 +31,7 @@ val view =LayoutInflater.from(context).inflate(R.layout.dialog_layout,null,false
             winnerName.text=""
             gif.visibility=View.GONE
         }else{
+            mediaPlayer?.start()
             textview.text="WINNER"
             winnerName.text=winner
             gif.visibility=View.VISIBLE
