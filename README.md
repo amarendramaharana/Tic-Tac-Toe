@@ -12,7 +12,7 @@ Two Player Mode: Play with a friend on the same device and enjoy the classic Tic
 
 Sound Effects: Built-in Android sounds that bring the game to life, making every move more engaging.
 
-
 User-friendly: Simple and intuitive controls that make the game easy to play for all ages.
 ## Screenshots
+![1](https://github.com/user-attachments/assets/059618e9-cb06-4db5-a24d-1aee2c63e9f1)![2](https://github.com/user-attachments/assets/e3e6853c-d006-444a-b44d-85a7d833c3c7)
 
