@@ -29,7 +29,7 @@ class GameActivity : AppCompatActivity() {
     lateinit var btn8: MaterialButton
     lateinit var btn9: MaterialButton
     private var count = 0
-    private lateinit var winner: String
+
     private lateinit var toneGenerator: ToneGenerator
     private var mediaPlayer: MediaPlayer? = null
     private var buttonCount = 0
